@@ -19,7 +19,7 @@
  */
 
 /** Class representing a HTTP request message */
-require_once 'HTTP/Request2.php';
+require_once __DIR__ . '/../Request2.php';
 
 /**
  * Stores cookies and passes them between HTTP requests

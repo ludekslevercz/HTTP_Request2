@@ -19,10 +19,10 @@
  */
 
 /** Base class for HTTP_Request2 adapters */
-require_once 'HTTP/Request2/Adapter.php';
+require_once __DIR__ . '/../Adapter.php';
 
 /** Socket wrapper class */
-require_once 'HTTP/Request2/SocketWrapper.php';
+require_once __DIR__ . '/../SocketWrapper.php';
 
 /**
  * Socket-based adapter for HTTP_Request2
